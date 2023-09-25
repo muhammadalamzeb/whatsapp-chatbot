@@ -7,51 +7,37 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <header class="header">
+        <nav class='nav container'>
+            <a href='index.html' class='nav__logo'>Muhammad Alamzeb</a>
+
+            <div class="nav__menu show-menu">
+                <ul class='nav__list grid'>
+                    <li class='nav__item'>
+                        <a href='#home' class="nav__link active-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class='nav__item'>
+                        <a href="#pricing">Pricing</a>
+                    </li>
+                    <li class='nav__item'>
+                        <a href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        <h1>O T H E R S I F Y</h1>
-        <p class="subtitle">Your AI Chatbot Solution</p>
     </header>
     <main>
         <section id="services">
-            <h2>Our Services</h2>
-            <!-- Service cards with hover animations -->
-            <div class="service-card">
-                <h3>Automated Support</h3>
-                <p>24/7 customer support through chatbots.</p>
-            </div>
-            <div class="service-card">
-                <h3>Lead Generation</h3>
-                <p>Convert visitors into leads with chatbot interactions.</p>
-            </div>
-            <div class="service-card">
-                <h3>Custom Solutions</h3>
-                <p>Tailored chatbots to meet your specific needs.</p>
-            </div>
         </section>
         <section id="about">
-            <h2>About Us</h2>
-            <p>We are a leading WhatsApp chatbot company...</p>
+            
         </section>
         <section id="contact">
-            <h2>Contact Us</h2>
-            <!-- Contact form -->
-            <form>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <textarea placeholder="Message"></textarea>
-                <button type="submit">Send</button>
-            </form>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 OTHERSIFY</p>
     </footer>
     <script src="script.js"></script>
 </body>
