@@ -126,6 +126,12 @@ ul{
 /*      Home Section   End     */
 
 /*  Feature Section Start   */
+.feature-title{
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 600;
+    font-size: 35px;
+}
 #feature {
     display: flex;
     align-items: center;
