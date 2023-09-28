@@ -5,6 +5,17 @@
 .section{
     padding: 6rem 0 2rem;
 }
+.section-heading{
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 600;
+    font-size: 35px;
+}
+.section-subheading {
+    color: #6495ED; /* Your primary color */
+    font-size: large;
+    text-align: center;
+}
 section{
     display: block;
 }
@@ -126,12 +137,7 @@ ul{
 /*      Home Section   End     */
 
 /*  Feature Section Start   */
-.feature-title{
-    text-align: center;
-    margin-top: 80px;
-    font-weight: 600;
-    font-size: 35px;
-}
+
 #feature {
     display: flex;
     align-items: center;
@@ -154,6 +160,42 @@ ul{
     box-shadow: 1px 5px 9px;
     color: #6495ED;
 }
-.feature-heading{
+.feature-box-heading{
+    color: #6495ED;
+}
+
+/*  How-it-works    */
+
+#how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 90px;
+    text-align: center;
+}
+
+.how-it-works-steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.how-it-works-step {
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #cce7d0;
+    border-radius: 8%;
+    transition: 0.3s ease;
+    box-sizing: border-box;
+}
+
+.how-it-works-step:hover {
+    box-shadow: 1px 5px 9px rgba(0, 0, 0, 0.1);
+    color: #6495ED;
+}
+
+.how-it-works-step-box-heading{
     color: #6495ED;
 }
