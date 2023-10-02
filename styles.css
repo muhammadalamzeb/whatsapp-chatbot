@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     font-family: 'Spartan',sans-serif;
+    color: #cce7d0;
 }
 .section{
     padding: 6rem 0 2rem;
